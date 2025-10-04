@@ -1,0 +1,80 @@
+POST http://localhost:8080/xiaozhi/chat
+Content-Type: application/json
+Content-Length: 50
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "chatId": 0,
+  "message": "再加1等于几"
+}
+
+<> 2025-10-04T004911.200.txt
+
+###
+
+POST http://localhost:8080/xiaozhi/chat
+Content-Type: application/json
+Content-Length: 50
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "chatId": 0,
+  "message": "在加1等于几"
+}
+
+<> 2025-10-04T004901.200.txt
+
+###
+
+POST http://localhost:8080/xiaozhi/chat
+Content-Type: application/json
+Content-Length: 52
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "chatId": 0,
+  "message": "一加一等于几"
+}
+
+<> 2025-10-04T004838.200.txt
+
+###
+
+POST http://localhost:8080/xiaozhi/chat
+Content-Type: application/json
+Content-Length: 52
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "chatId": 0,
+  "message": "一加一等于几"
+}
+
+<> 2025-10-04T004742.200.txt
+
+###
+
+POST http://localhost:8080/xiaozhi/chat
+Content-Type: application/json
+Content-Length: 40
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "chatId": 0,
+  "message": "你好"
+}
+
+<> 2025-10-04T000852.200.txt
+
+###
+
