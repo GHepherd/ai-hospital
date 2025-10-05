@@ -1,6 +1,8 @@
 package com.gjh.xiaozi.controller;
 
-import com.gjh.xiaozi.DTO.MessageDTO;
+import com.gjh.xiaozi.dto.MessageDTO;
+import com.gjh.xiaozi.entity.Appointment;
+import com.gjh.xiaozi.service.AppointmentService;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.memory.ChatMemory;
 import org.springframework.ai.chat.prompt.Prompt;
@@ -12,7 +14,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import reactor.core.publisher.Flux;
 
 import java.util.Date;
 import java.util.Map;
@@ -28,6 +29,9 @@ public class XiaozhiController {
     @Autowired
     private ChatClient chatClient;
 
+    @Autowired
+    private AppointmentService appointmentService;
+
     @PostMapping("/chat")
     public String chat(@RequestBody MessageDTO dto) {
         PromptTemplate promptTemplate = new PromptTemplate(template);
@@ -36,5 +40,10 @@ public class XiaozhiController {
                 .user(dto.getMessage())
                 .advisors(a->a.param(ChatMemory.CONVERSATION_ID,dto.getChatId()))
                 .call().content();
+    }
+
+    @PostMapping("/bookAppointment")
+    public Appointment bookAppointment(@RequestBody Appointment appointment) {
+        return appointmentService.checkExist(appointment);
     }
 }

@@ -1,4 +1,4 @@
-package com.gjh.xiaozi.DTO;
+package com.gjh.xiaozi.dto;
 
 import lombok.Data;
 

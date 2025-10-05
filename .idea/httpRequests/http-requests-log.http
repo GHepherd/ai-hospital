@@ -1,5 +1,424 @@
 POST http://localhost:8080/xiaozhi/chat
 Content-Type: application/json
+Content-Length: 46
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "chatId": 2,
+  "message": "确认预约"
+}
+
+<> 2025-10-05T133837.200.txt
+
+###
+
+POST http://localhost:8080/xiaozhi/chat
+Content-Type: application/json
+Content-Length: 139
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "chatId": 2,
+  "message": "我的姓名是张三，我的身份证号为123456789012345678，帮我预约挂号今天下午的内科"
+}
+
+<> 2025-10-05T133746.200.txt
+
+###
+
+POST http://localhost:8080/xiaozhi/chat
+Content-Type: application/json
+Content-Length: 40
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "chatId": 1,
+  "message": "确认"
+}
+
+<> 2025-10-05T133720.200.txt
+
+###
+
+POST http://localhost:8080/xiaozhi/chat
+Content-Type: application/json
+Content-Length: 40
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "chatId": 1,
+  "message": "确认"
+}
+
+<> 2025-10-05T133654.200.txt
+
+###
+
+POST http://localhost:8080/xiaozhi/chat
+Content-Type: application/json
+Content-Length: 40
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "chatId": 1,
+  "message": "确认"
+}
+
+<> 2025-10-05T133635.200.txt
+
+###
+
+POST http://localhost:8080/xiaozhi/chat
+Content-Type: application/json
+Content-Length: 40
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "chatId": 1,
+  "message": "确认"
+}
+
+<> 2025-10-05T133609.200.txt
+
+###
+
+POST http://localhost:8080/xiaozhi/chat
+Content-Type: application/json
+Content-Length: 139
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "chatId": 1,
+  "message": "我的姓名是张三，我的身份证号为123456789012345678，帮我预约挂号今天下午的内科"
+}
+
+<> 2025-10-05T133548.200.txt
+
+###
+
+POST http://localhost:8080/xiaozhi/chat
+Content-Type: application/json
+Content-Length: 40
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "chatId": 1,
+  "message": "确认"
+}
+
+<> 2025-10-05T133418.200.txt
+
+###
+
+POST http://localhost:8080/xiaozhi/chat
+Content-Type: application/json
+Content-Length: 40
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "chatId": 1,
+  "message": "确认"
+}
+
+<> 2025-10-05T133312.200.txt
+
+###
+
+POST http://localhost:8080/xiaozhi/chat
+Content-Type: application/json
+Content-Length: 40
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "chatId": 1,
+  "message": "确认"
+}
+
+<> 2025-10-05T133257.200.txt
+
+###
+
+POST http://localhost:8080/xiaozhi/chat
+Content-Type: application/json
+Content-Length: 40
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "chatId": 1,
+  "message": "确认"
+}
+
+<> 2025-10-05T133200.200.txt
+
+###
+
+POST http://localhost:8080/xiaozhi/chat
+Content-Type: application/json
+Content-Length: 40
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "chatId": 1,
+  "message": "确认"
+}
+
+<> 2025-10-05T133142.200.txt
+
+###
+
+POST http://localhost:8080/xiaozhi/chat
+Content-Type: application/json
+Content-Length: 40
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "chatId": 1,
+  "message": "确认"
+}
+
+<> 2025-10-05T133115.200.txt
+
+###
+
+POST http://localhost:8080/xiaozhi/bookAppointment
+Content-Type: application/json
+Content-Length: 115
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 0,
+  "username": "",
+  "idCard": "",
+  "department": "",
+  "date": "",
+  "time": "",
+  "doctorName": ""
+}
+
+###
+
+POST http://localhost:8080/xiaozhi/chat
+Content-Type: application/json
+Content-Length: 40
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "chatId": 1,
+  "message": "确认"
+}
+
+<> 2025-10-05T132837.200.txt
+
+###
+
+POST http://localhost:8080/xiaozhi/chat
+Content-Type: application/json
+Content-Length: 40
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "chatId": 1,
+  "message": "确认"
+}
+
+<> 2025-10-05T132658.200.txt
+
+###
+
+POST http://localhost:8080/xiaozhi/chat
+Content-Type: application/json
+Content-Length: 133
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "chatId": 1,
+  "message": "我的名字是张三，我的身份证号为123456789012345678，帮我挂今天下午内科的号"
+}
+
+<> 2025-10-05T132611.200.txt
+
+###
+
+POST http://localhost:8080/xiaozhi/chat
+Content-Type: application/json
+Content-Length: 133
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "chatId": 1,
+  "message": "我的名字是张三，我的身份证号为123456789012345678，帮我挂今天下午内科的号"
+}
+
+<> 2025-10-05T132345.200.txt
+
+###
+
+POST http://localhost:8080/xiaozhi/chat
+Content-Type: application/json
+Content-Length: 133
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "chatId": 1,
+  "message": "我的名字是张三，我的身份证号为123456789012345678，帮我挂今天下午内科的号"
+}
+
+<> 2025-10-05T132143.200.txt
+
+###
+
+POST http://localhost:8080/xiaozhi/chat
+Content-Type: application/json
+Content-Length: 133
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "chatId": 1,
+  "message": "我的名字是张三，我的身份证号为123456789012345678，帮我挂今天下午内科的号"
+}
+
+<> 2025-10-05T131831.200.txt
+
+###
+
+POST http://localhost:8080/xiaozhi/chat
+Content-Type: application/json
+Content-Length: 133
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "chatId": 1,
+  "message": "我的名字是张三，我的身份证号为123456789012345678，帮我挂今天下午内科的号"
+}
+
+<> 2025-10-05T131819.200.txt
+
+###
+
+POST http://localhost:8080/xiaozhi/chat
+Content-Type: application/json
+Content-Length: 133
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "chatId": 0,
+  "message": "我的名字是张三，我的身份证号为123456789012345678，帮我挂今天下午内科的号"
+}
+
+<> 2025-10-05T131804.200.txt
+
+###
+
+POST http://localhost:8080/xiaozhi/chat
+Content-Type: application/json
+Content-Length: 142
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "chatId": 0,
+  "message": "我的名字是张三，我的身份证号为123456789012345678，帮我挂今天下午到内科就诊的号"
+}
+
+<> 2025-10-05T131644.200.txt
+
+###
+
+POST http://localhost:8080/xiaozhi/chat
+Content-Type: application/json
+Content-Length: 139
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "chatId": 0,
+  "message": "我的名字是张三，我的身份证号为123456789012345678，帮我预约今天下午到内科就诊"
+}
+
+<> 2025-10-05T131621.200.txt
+
+###
+
+POST http://localhost:8080/xiaozhi/chat
+Content-Type: application/json
+Content-Length: 139
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "chatId": 0,
+  "message": "我的名字是张三，我的身份证号为123456789012345678，帮我预约今天下午到内科就诊"
+}
+
+<> 2025-10-05T131603.200.txt
+
+###
+
+POST http://localhost:8080/xiaozhi/chat
+Content-Type: application/json
+Content-Length: 139
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "chatId": 0,
+  "message": "我的名字是张三，我的身份证号为123456789012345678，帮我预约今天下午到内科就诊"
+}
+
+<> 2025-10-05T131523.200.txt
+
+###
+
+POST http://localhost:8080/xiaozhi/chat
+Content-Type: application/json
 Content-Length: 50
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.1.1
 Accept-Encoding: br, deflate, gzip, x-gzip
