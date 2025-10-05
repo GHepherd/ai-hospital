@@ -1,18 +1,22 @@
 spring:
   ai:
+    vectorstore:
+      redis:
+        initialize-schema: true
+        index-name: ai-hospital
+        prefix: ai-hospital-vectorstore
     dashscope:
       api-key: sk-5260f53be338461bb6a9a28545552dc4
-      base-url: https://dashscope.aliyuncs.com/compatible-mode/v1
       chat:
         options:
           model: qwen-plus
+      embedding:
+        options:
+          model: text-embedding-v3
   data:
     redis:
       host: localhost
       port: 6379
-      database: 0
-      connect-timeout: 3
-      timeout: 2
   datasource:
     url: jdbc:mysql://localhost:3306/guiguxiaozhi?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false
     username: root

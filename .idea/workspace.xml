@@ -4,23 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d0bcf07-7f3e-4c1c-bf64-77990b843532" name="更改" comment="初始化">
-      <change afterPath="$PROJECT_DIR$/ai-common/src/main/java/com/gjh/xiaozi/entity/Appointment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-service/src/main/java/com/gjh/xiaozi/mapper/AppointmentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-service/src/main/java/com/gjh/xiaozi/service/AppointmentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-service/src/main/java/com/gjh/xiaozi/service/impl/AppointmentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-service/src/main/java/com/gjh/xiaozi/tool/AppointmentTools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-service/src/main/resources/mapper/AppointmentMapper.xml" afterDir="false" />
+    <list default="true" id="4d0bcf07-7f3e-4c1c-bf64-77990b843532" name="更改" comment="添加数据库及预约挂号功能">
+      <change afterPath="$PROJECT_DIR$/ai-service/src/main/java/com/gjh/xiaozi/config/VectorStoreConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai-service/src/main/resources/knowledge/医院信息.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai-service/src/main/resources/knowledge/口腔科.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai-service/src/main/resources/knowledge/神经内科.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai-service/src/main/resources/knowledge/科室信息.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai-common/src/main/java/com/gjh/xiaozi/DTO/MessageDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ai-common/src/main/java/com/gjh/xiaozi/dto/MessageDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ai-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai-common/src/main/java/com/gjh/xiaozi/dto/MessageDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ai-common/src/main/java/com/gjh/xiaozi/dto/MessageDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ai-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ai-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai-service/src/main/java/com/gjh/xiaozi/AiServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ai-service/src/main/java/com/gjh/xiaozi/AiServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ai-service/src/main/java/com/gjh/xiaozi/config/ChatClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ai-service/src/main/java/com/gjh/xiaozi/config/ChatClientConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ai-service/src/main/java/com/gjh/xiaozi/controller/XiaozhiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ai-service/src/main/java/com/gjh/xiaozi/controller/XiaozhiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai-service/src/main/java/com/gjh/xiaozi/tool/AppointmentTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/ai-service/src/main/java/com/gjh/xiaozi/tool/AppointmentTools.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ai-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ai-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai-service/src/main/resources/templates/zhaozhi-prompt-template.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ai-service/src/main/resources/templates/zhaozhi-prompt-template.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,8 +82,10 @@
     "HTTP 请求.generated-requests | #7.executor": "Run",
     "HTTP 请求.generated-requests | #8.executor": "Run",
     "HTTP 请求.generated-requests | #9.executor": "Run",
+    "Maven.ai-common [install].executor": "Run",
     "Maven.ai-hospital [compile].executor": "Run",
     "Maven.ai-service [clean].executor": "Run",
+    "Maven.ai-service [compile].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -91,11 +93,11 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.AiServiceApplication.executor": "Debug",
+    "Spring Boot.AiServiceApplication.executor": "Run",
     "com.intellij.ide.FileNotInSourceRootChecker.no.check": "true",
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/idea/ai-hospital/ai-common/src/main/java/com/gjh",
+    "last_opened_file_path": "D:/idea/ai-hospital/ai-service/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -105,7 +107,7 @@
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propCompiler",
+    "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -120,12 +122,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea\ai-hospital\ai-service\src\main\resources" />
       <recent name="D:\idea\ai-hospital\ai-common\src\main\java\com\gjh" />
       <recent name="D:\idea\ai-hospital\ai-common\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idea\ai-hospital\ai-service\src\main\resources\knowledge" />
       <recent name="D:\idea\ai-hospital\ai-service\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="HTTP 请求.generated-requests | #10">
+  <component name="RunManager" selected="Spring Boot.AiServiceApplication">
     <configuration name="generated-requests | #10" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#10" index="10" runType="运行单个请求">
       <method v="2" />
     </configuration>
@@ -147,9 +153,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.AiServiceApplication" />
         <item itemvalue="HTTP 请求.generated-requests | #10" />
         <item itemvalue="HTTP 请求.generated-requests | #8" />
-        <item itemvalue="Spring Boot.AiServiceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +186,7 @@
       <workItem from="1759548744773" duration="171000" />
       <workItem from="1759549253727" duration="180000" />
       <workItem from="1759549440263" duration="2253000" />
-      <workItem from="1759639957747" duration="3130000" />
+      <workItem from="1759639957747" duration="14765000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <option name="closed" value="true" />
@@ -190,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759549663584</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加数据库及预约挂号功能">
+      <option name="closed" value="true" />
+      <created>1759643200416</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1759643200416</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,32 +212,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始化" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ai-service/src/main/java/com/gjh/xiaozi/controller/XiaozhiController.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ai-service/src/main/java/com/gjh/xiaozi/tool/AppointmentTools.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ai-service/src/main/java/com/gjh/xiaozi/tool/AppointmentTools.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ai-service/src/main/java/com/gjh/xiaozi/tool/AppointmentTools.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="添加数据库及预约挂号功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加数据库及预约挂号功能" />
   </component>
 </project>

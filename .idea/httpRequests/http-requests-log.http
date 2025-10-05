@@ -6,6 +6,118 @@ Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
 
 {
+  "chatId": 5,
+  "message": "确认预约"
+}
+
+<> 2025-10-05T162731.200.txt
+
+###
+
+POST http://localhost:8080/xiaozhi/chat
+Content-Type: application/json
+Content-Length: 145
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "chatId": 5,
+  "message": "我的姓名是王五，我的身份证号为123456789012345678，帮我预约挂号今天下午的神经内科"
+}
+
+<> 2025-10-05T162714.200.txt
+
+###
+
+POST http://localhost:8080/xiaozhi/chat
+Content-Type: application/json
+Content-Length: 46
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "chatId": 4,
+  "message": "确认预约"
+}
+
+<> 2025-10-05T160915.200.txt
+
+###
+
+POST http://localhost:8080/xiaozhi/chat
+Content-Type: application/json
+Content-Length: 139
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "chatId": 4,
+  "message": "我的姓名是李四，我的身份证号为123456789012345678，帮我预约挂号今天下午的内科"
+}
+
+<> 2025-10-05T160852.200.txt
+
+###
+
+POST http://localhost:8080/xiaozhi/chat
+Content-Type: application/json
+Content-Length: 139
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "chatId": 4,
+  "message": "我的姓名是张三，我的身份证号为123456789012345678，帮我预约挂号今天下午的内科"
+}
+
+<> 2025-10-05T160831.200.txt
+
+###
+
+POST http://localhost:8080/xiaozhi/chat
+Content-Type: application/json
+Content-Length: 46
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "chatId": 3,
+  "message": "确认预约"
+}
+
+<> 2025-10-05T160609.200.txt
+
+###
+
+POST http://localhost:8080/xiaozhi/chat
+Content-Type: application/json
+Content-Length: 139
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "chatId": 3,
+  "message": "我的姓名是张三，我的身份证号为123456789012345678，帮我预约挂号今天下午的内科"
+}
+
+<> 2025-10-05T160551.200.txt
+
+###
+
+POST http://localhost:8080/xiaozhi/chat
+Content-Type: application/json
+Content-Length: 46
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
   "chatId": 2,
   "message": "确认预约"
 }

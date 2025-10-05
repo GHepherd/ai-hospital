@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import reactor.core.publisher.Flux;
 
 import java.util.Date;
 import java.util.Map;
@@ -33,13 +34,13 @@ public class XiaozhiController {
     private AppointmentService appointmentService;
 
     @PostMapping("/chat")
-    public String chat(@RequestBody MessageDTO dto) {
+    public Flux<String> chat(@RequestBody MessageDTO dto) {
         PromptTemplate promptTemplate = new PromptTemplate(template);
         Prompt prompt = promptTemplate.create(Map.of("current_date", new Date()));
         return chatClient.prompt(prompt)
                 .user(dto.getMessage())
-                .advisors(a->a.param(ChatMemory.CONVERSATION_ID,dto.getChatId()))
-                .call().content();
+                .advisors(a->a.param(ChatMemory.CONVERSATION_ID,dto.getMemoryId()))
+                .stream().content();
     }
 
     @PostMapping("/bookAppointment")
